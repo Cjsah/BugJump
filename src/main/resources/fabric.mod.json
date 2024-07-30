@@ -9,7 +9,7 @@
   ],
   "icon": "icon.png",
   "contact": {},
-  "accessWidener" : "bugjump.accesswidener",
+  "accessWidener": "bugjump.accesswidener",
   "license": "MIT",
   "environment": "*",
   "entrypoints": {
@@ -23,5 +23,8 @@
   "depends": {
     "fabricloader": ">=0.14.9",
     "minecraft": ">=1.19"
+  },
+  "breaks": {
+    "xlpackets": "*"
   }
 }
